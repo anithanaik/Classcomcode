@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><errorlog><exception><file>AlumniOptIn_QA</file><time>2021-10-19 10:26:55</time><description>Exception has been thrown by the target of an invocation.</description><method>System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)</method><trace>   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)
+   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at OpenQA.Selenium.IWebElement.Click()
+   at ClassLibrary1.NotificationSettings.OpenPeoplePage() in C:\Users\amalathkar\source\repos\ClassLibrary1\ClassLibrary1\PageObjectReporsitary\NotificationSettings.cs:line 399
+   at ClassLibrary1.NotificationSettings.MasqueradeAlumni() in C:\Users\amalathkar\source\repos\ClassLibrary1\ClassLibrary1\PageObjectReporsitary\NotificationSettings.cs:line 436
+   at ClassLibrary1.Class1.AlumniOptIn() in C:\Users\amalathkar\source\repos\ClassLibrary1\ClassLibrary1\TestCases\Class1.cs:line 183</trace><exception><file>AlumniOptIn_QA</file><time>2021-10-19 10:26:55</time><description>element not interactable
+  (Session info: chrome=94.0.4606.81)</description><method>Void UnpackAndThrowOnError(OpenQA.Selenium.Remote.Response)</method><trace>   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()</trace></exception></exception></errorlog>

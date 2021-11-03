@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><errorlog><exception><file>AlumniWelcometour_QA</file><time>2021-11-01 04:25:03</time><description>  Expected: True
+  But was:  False
+</description><method>Void ReportFailure(System.String)</method><trace>   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.IsTrue(Boolean condition)
+   at ClassLibrary1.PersonalCommons.VerifyAlumniTour() in C:\auotmation scripts\ClassLibrary1\ClassLibrary1\PageObjectReporsitary\PersonalCommons.cs:line 755
+   at ClassLibrary1.Class1.AlumniWelcometour() in C:\auotmation scripts\ClassLibrary1\ClassLibrary1\TestCases\Class1.cs:line 186</trace></exception></errorlog>

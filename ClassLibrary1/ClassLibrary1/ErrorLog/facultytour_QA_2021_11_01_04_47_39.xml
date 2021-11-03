@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><errorlog><exception><file>facultytour_QA</file><time>2021-11-01 04:47:39</time><description>Exception has been thrown by the target of an invocation.</description><method>System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)</method><trace>   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)
+   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData&amp; msgData, Int32 type)
+   at OpenQA.Selenium.IWebElement.Click()
+   at ClassLibrary1.NotificationSettings.Masqueradefaculty() in C:\auotmation scripts\ClassLibrary1\ClassLibrary1\PageObjectReporsitary\NotificationSettings.cs:line 499
+   at ClassLibrary1.Class1.facultytour() in C:\auotmation scripts\ClassLibrary1\ClassLibrary1\TestCases\Class1.cs:line 251</trace><exception><file>facultytour_QA</file><time>2021-11-01 04:47:39</time><description>element not interactable
+  (Session info: chrome=95.0.4638.69)</description><method>Void UnpackAndThrowOnError(OpenQA.Selenium.Remote.Response)</method><trace>   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Click()</trace></exception></exception></errorlog>
