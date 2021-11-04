@@ -189,6 +189,7 @@ namespace ClassLibrary1
                 //personalCommons.VerifyAlumniOptin(); 
                 Thread.Sleep(1000);
                 userInfo.Logout();
+                Console.WriteLine("test");
 
 
             }
@@ -223,7 +224,7 @@ namespace ClassLibrary1
                 //personalCommons.VerifyAlumniOptin(); 
                 Thread.Sleep(1000);
                 userInfo.Logout();
-
+                Console.WriteLine("test");
 
             }
             catch (Exception ex)
